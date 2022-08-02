@@ -185,46 +185,46 @@
 //╚═════════════╗  31   |  32   ║      ║  33   |  34   ╔═════════════╝
 //              ╚═══════════════╝      ╚═══════════════╝
 
-/ {
-	combos {
-		compatible = "zmk,combos";
-		combo_bleLayer {
-			timeout-ms = <50>;
-			key-positions = <31 34>;
-			bindings = <&mo BLE>;
-		};
-		// combo_esc {
-		// 	timeout-ms = <20>;
-		// 	key-positions = <11 12>;
-		// 	bindings = <&kp ESC>;
-		// };
-		combo_tab {
-			timeout-ms = <20>;
-			key-positions = <12 13>;
-			bindings = <&kp TAB>;
-		};
-		// combo_del {
-		// 	timeout-ms = <20>;
-		// 	key-positions = <17 18>;
-		// 	bindings = <&kp DEL>;
-		// };
-		// combo_bspc {
-		// 	timeout-ms = <20>;
-		// 	key-positions = <16 17>;
-		// 	bindings = <&kp BSPC>;
-		// };
-		combo_enter {
-			timeout-ms = <20>;
-			key-positions = <18 19>;
-			bindings = <&kp RET>;
-		};
-		combo_caps-word {
-			timeout-ms = <20>;
-			key-positions = <13 16>;
-			bindings = <&caps_word>;
-		};
-	};
-};
+// / {
+// 	combos {
+// 		compatible = "zmk,combos";
+// 		combo_bleLayer {
+// 			timeout-ms = <50>;
+// 			key-positions = <31 34>;
+// 			bindings = <&mo BLE>;
+// 		};
+// 		// combo_esc {
+// 		// 	timeout-ms = <20>;
+// 		// 	key-positions = <11 12>;
+// 		// 	bindings = <&kp ESC>;
+// 		// };
+// 		combo_tab {
+// 			timeout-ms = <20>;
+// 			key-positions = <12 13>;
+// 			bindings = <&kp TAB>;
+// 		};
+// 		combo_del {
+// 			timeout-ms = <20>;
+// 			key-positions = <17 18>;
+// 			bindings = <&kp DEL>;
+// 		};
+// 		// combo_bspc {
+// 		// 	timeout-ms = <20>;
+// 		// 	key-positions = <16 17>;
+// 		// 	bindings = <&kp BSPC>;
+// 		// };
+// 		combo_enter {
+// 			timeout-ms = <20>;
+// 			key-positions = <18 19>;
+// 			bindings = <&kp RET>;
+// 		};
+// 		combo_caps-word {
+// 			timeout-ms = <20>;
+// 			key-positions = <13 16>;
+// 			bindings = <&caps_word>;
+// 		};
+// 	};
+// };
 
 
 
