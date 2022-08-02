@@ -203,11 +203,11 @@
 			key-positions = <12 13>;
 			bindings = <&kp TAB>;
 		};
-		combo_del {
-			timeout-ms = <20>;
-			key-positions = <17 18>;
-			bindings = <&kp DEL>;
-		};
+		// combo_del {
+		// 	timeout-ms = <20>;
+		// 	key-positions = <17 18>;
+		// 	bindings = <&kp DEL>;
+		// };
 		// combo_bspc {
 		// 	timeout-ms = <20>;
 		// 	key-positions = <16 17>;
