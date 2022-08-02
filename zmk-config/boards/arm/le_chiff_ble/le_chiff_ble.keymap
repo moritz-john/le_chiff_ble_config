@@ -80,7 +80,7 @@
 			bindings = <
 			&kp Q		&kp W		&kp F		&kp P   	&kp B						&kp J			&kp L		&kp U		&kp Y		&kp SQT
 			&hl LGUI A	&hl LALT R	&hl LCTRL S	&hs LSHFT T	&hl RALT G					&hr RALT M		&hs RSHFT N	&hr RCTRL E	&hr LALT I	&hr LGUI O
-			&kp Z		&kp X		&kp C		&kp D   	&kp V			&none		&kp K			&kp H		&kp COMMA	&kp DOT		&kp FSLH
+			&kp Z		&kp X		&kp C		&kp D   	&kp V						&kp K			&kp H		&kp COMMA	&kp DOT		&kp FSLH
 												&lt FUN ESC	&lt NAV SPACE				&lt NUM BSPC	&lt SYM RET
 			>;
 		};
@@ -98,7 +98,7 @@
 			bindings = <
 			&none		&none		&none		&none		&kp	LBRC			&kp LC(Y) 	&kp K_PASTE		&kp K_COPY		&kp K_CUT	&kp LC(Z)
 			&kp LGUI	&kp LALT	&kp LCTRL	&kp LSHFT	&kp LPAR			&kp CAPS	&kp LEFT		&kp DOWN		&kp UP		&kp RIGHT
-			&none		&none		&none		&none		&kp LBKT	&none	&kp INS		&kp HOME		&kp PG_DN		&kp PG_UP	&kp END
+			&none		&none		&none		&none		&kp LBKT			&kp INS		&kp HOME		&kp PG_DN		&kp PG_UP	&kp END
 												&none		&none				&none		&none
 			>;
 		};
@@ -116,7 +116,7 @@
 			bindings = <
 			&kp COMMA	&kp N7	&kp N8	&kp N9		&kp DOT				&kp RBRC	&none		&none		&none		&none
 			&kp SEMI	&kp N4	&kp N5	&kp N6		&kp EQL				&kp RPAR	&kp RSHFT	&kp RCTRL	&kp LALT	&kp LGUI
-			&kp GRAVE	&kp N1	&kp N2	&kp N3		&kp BSLH	&none	&kp RBKT	&none		&none		&none		&none
+			&kp GRAVE	&kp N1	&kp N2	&kp N3		&kp BSLH			&kp RBKT	&none		&none		&none		&none
 										&kp MINUS	&kp N0				&none		&none
 			>;
 		};
@@ -134,7 +134,7 @@
 			bindings = <
 			&kp LBRC	&kp AMPS	&kp ASTRK	&kp LPAR	&kp RBRC			&none	&none	&none	&reset		&none
 			&kp COLON	&kp DLLR	&kp PRCT	&kp CRRT	&kp PLUS			&none	&none	&none	&reset		&none
-			&kp TILDE	&kp EXCL	&kp AT		&kp HASH	&kp PIPE	&none	&none	&none	&none	&reset		&none
+			&kp TILDE	&kp EXCL	&kp AT		&kp HASH	&kp PIPE			&none	&none	&none	&reset		&none
 												&kp UNDER		&none				&none	&none		
 			>;
 		};
@@ -152,7 +152,7 @@
 			bindings = <
 			&none		&none		&none		&none		&none			&kp F12	&kp F7	&kp F8	&kp F9	&kp PSCRN
 			&kp LGUI	&kp LALT	&kp LCTRL	&kp LSHFT	&none			&kp F11	&kp F4	&kp F5	&kp F6	&kp CAPS
-			&none		&none		&none	&none	&none	&none	&none	&kp F10	&kp F1	&kp F2	&kp F3	&kp INS
+			&none		&none		&none	&none	&none	&none			&kp F10	&kp F1	&kp F2	&kp F3	&kp INS
 													&none	&none			&none	&none
 			>;
 		};
@@ -170,7 +170,7 @@
 			bindings = <
 			&none	&none	&none	&reset		&none			&out OUT_USB	&out OUT_BLE	&none			&none			&none
 			&none	&none	&none	&bootloader	&none			&bt BT_SEL 0	&bt BT_SEL 1	&bt BT_SEL 2	&bt BT_SEL 3	&bt BT_SEL 4
-			&none	&none	&none	&none		&none	&none	&none			&none			&bt BT_PRV		&bt BT_NXT		&bt BT_CLR
+			&none	&none	&none	&none		&none			&none			&none			&bt BT_PRV		&bt BT_NXT		&bt BT_CLR
 									&none		&none			&none			&none
 			>;
 		};
