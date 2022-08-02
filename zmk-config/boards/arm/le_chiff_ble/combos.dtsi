@@ -42,10 +42,10 @@ compatible = "zmk,combos";
 //╚═════════════╗  31   |  32   ║      ║  33   |  34   ╔═════════════╝
 //              ╚═══════════════╝      ╚═══════════════╝
 
-COMBO(tab, &kp TAB, 28 29)
-COMBO(shift, &skq LSHFT, 1 2)
+COMBO(tab, &kp TAB, 1 2)
+COMBO(shift, &skq LSHFT, 8 9)
 COMBO(ctrl, &sk LCTL, 21 22)
-COMBO(backspace, &kp BSPC, 7 8)
+COMBO(backspace, &kp BSPC, 28 29)
 COMBO(cmd, &sk LGUI, 31 32)
 COMBO(opt, &sk LALT, 33 34)
 COMBO(q, &kp Q, 1 3)
